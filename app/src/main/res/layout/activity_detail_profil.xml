@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    android:orientation="vertical"
+    tools:context=".DetailProfil">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_text"
+        android:fontFamily="@font/love_beard"
+        android:gravity="center"
+        android:text="@string/hello_fellas"
+        android:textColor="#0C1235"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/nevis"
+        android:gravity="center"
+        android:text="@string/welocome_to_my_profile"
+        android:textColor="#F4F4F1"
+        android:textSize="15sp"
+
+        android:textStyle="bold" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/me" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:contentDescription="@string/paperplane"
+        android:src="@drawable/plane" />
+
+    <TextView
+        android:layout_width="@dimen/dp_355"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/bakso_sapi"
+        android:text="@string/personal_information"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/caviar"
+            android:text="@string/isi_profile"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/caviar"
+            android:text="@string/format_profile"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/life_motto"
+    android:fontFamily="@font/bakso_sapi"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textColor="@android:color/white"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="7dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:fontFamily="@font/caviar"
+        android:text="@string/motto"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="30dp"
+        android:textSize="15sp"/>
+
+</LinearLayout>
